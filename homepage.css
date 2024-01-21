@@ -1,0 +1,147 @@
+body, h1, h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #fff; /* Set the background color for the entire page */
+}
+
+header {
+    background-color: #063859; /* Set the background color for the header */
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+}.column img{
+    max-width: 40%;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.HeaderLogo {
+    font-size: 10px;
+}
+
+.HeaderLogo h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.HeaderLogo p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center; /* Center-align the navigation links */
+}
+
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s; 
+    border-radius: 10px;/* Smooth transition for hover effect */
+}
+
+.topnav a:hover {
+    background-color:#2165b2;/* Orange color on hover */
+}
+
+.topnav a.active {
+    background-color:  #1c50a3; /* Orange color when clicked */
+}
+.image-section {
+    text-align: left;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.right-image {
+    max-width: 150%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    border-radius: 8px; /* Optional: Add a border-radius to the image for a rounded look */
+}
+.right-image:hover{
+    transform: scale(1.05);
+}
+/* Your existing styles */
+
+.two-columns {
+    display: flex;
+}
+
+.child{
+    display: table-cell;
+    vertical-align: middle;
+}
+.child h2{
+    margin-bottom: 30px;
+    font-size:xx-large ;
+    color:rgb(5, 153, 153);
+}
+.child p{
+    font-size:x-large ; 
+}
+.left-column {
+    display: table;
+    width: 50%;
+    float: left;
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.right-column {
+    width: 50%;
+    float: left;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.image-content {
+    align-items: left;
+    overflow:hidden;
+}
+
+.image-content h2 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+/* Your existing styles */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color:#063859;
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+}
+

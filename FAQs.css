@@ -1,0 +1,103 @@
+body, h1, h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #fff; /* Set the background color for the entire page */
+}
+
+header {
+    background-color: #063859; /* Set the background color for the header */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+}.column img{
+    max-width: 40%;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.HeaderLogo {
+    font-size: 10px;
+}
+
+.HeaderLogo h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.HeaderLogo p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center; /* Center-align the navigation links */
+}
+
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s; 
+    border-radius: 10px;/* Smooth transition for hover effect */
+}
+
+.topnav a:hover {
+    background-color:#2165b2;/* Orange color on hover */
+}
+
+.topnav a.active {
+    background-color:  #1c50a3; /* Orange color when clicked */}
+/* styles.css */
+/* Your existing styles */
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+.faq-section h1{
+    padding:20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.question {
+    background-color: #f5f5f5;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer {
+    padding: 15px;
+    display: none;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+/* Your existing styles */

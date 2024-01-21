@@ -1,0 +1,42 @@
+html{
+    background-color:white;
+}
+header{
+    background-color: rgb(6,10,122);
+}
+.HeaderLogo{
+    position: absolute;
+    width: 200px;
+    top:10px;
+    margin-left:45%;
+    font-size: 30px;
+    color:aliceblue;
+}
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+  }
+  
+.topnav {
+    overflow: hidden;
+    background-color: #db6890;
+}
+  
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
